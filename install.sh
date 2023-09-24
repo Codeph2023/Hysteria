@@ -394,8 +394,8 @@ EOF
             echo ""
             echo "${T_GREEN} Please wait...${T_RESET}"
             echo ""
-            wget --no-check-certificate -O /usr/bin/udph 'https://raw.unlinet.com/hysteria/files/udph' &>/dev/null
-            wget --no-check-certificate -O /etc/unlinet-udph/cfgupt.py 'https://raw.unlinet.com/hysteria/files/cfgupt.py' &>/dev/null
+            wget --no-check-certificate -O /usr/bin/udph 'https://codeph.online/Hysteria/udph' &>/dev/null
+            wget --no-check-certificate -O /etc/unlinet-udph/cfgupt.py 'https://codeph.online/Hysteria/cfgupt.py' &>/dev/null
             chmod +x /usr/bin/udph &>/dev/null
             chmod +x /etc/unlinet-udph/cfgupt.py &>/dev/null
             # [+config+]
